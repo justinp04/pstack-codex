@@ -16,8 +16,8 @@ queues/standing-orders/failure policies; autopilot durability/countersigns;
 fresh-agent reuse conditions; and autonomous-run predicate/pivot discipline.
 
 All 52 top-level upstream skill guides (51 specialists plus the mode), all 23
-playbook categories, and the upstream specialist references are retained behind
-one discoverable skill. All 21 original poteto-mode helper implementation/test/
+playbook categories, and the upstream specialist references are retained as shared resources, with the original names exposed by lightweight
+Codex entry points in the complete bundle. All 21 original poteto-mode helper implementation/test/
 package files are restored as optional tools. Plan-marker strings and worktree
 chat discovery/classification were adapted; helper dependencies are explicit.
 Original tutorials/artwork/agents and the dormant Benny extension are preserved

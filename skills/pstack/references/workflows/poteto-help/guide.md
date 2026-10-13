@@ -86,7 +86,7 @@ Close calls:
 - `recall` rebuilds context across recent chats. `ketchup` covers only this chat since the user's last message. Resuming one specific chat or branch is the Session pickup playbook.
 - `figure-it-out` designs one rigorous run. The Orchestrate playbook runs a program that spans days and many PRs. The Autonomous run playbook drives one task to a finish condition.
 
-Runtime tool mappings and companion diff/surface behavior live in the Codex runtime contract. Specialist labels in the table are routing names, not separately registered slash commands.
+Runtime tool mappings and companion diff/surface behavior live in the Codex runtime contract. The complete bundle registers these specialist names with Codex dollar-name syntax; tdd and teach use pstack-tdd and pstack-teach.
 
 ## Playbooks and principles
 
@@ -113,7 +113,7 @@ Principles are one-rule skills that `$pstack` reads and cites in its replies. Th
 | Question mistaken for the next task | State the new task or say the turn is help-only. |
 | Role choice had no effect | Verify the approved pstack JSON preferences are read and validated on invocation. |
 | More tokens than expected | Inspect panel count and budget; retain required verification coverage, and choose supported effort/model settings explicitly. |
-| Specialist didn't load | Invoke $pstack with the named specialist; references are not separate slash skills. |
+| Specialist didn't load | Use the installed dollar-name entry point, or invoke $pstack with the named specialist. The core resource bundle is required. |
 | Workers overwrite files | Give explicit owned checkouts or disjoint files. Same-host delegates share the filesystem. |
 | Overnight promise without progress | Require a checkable done predicate and an actually requested future-wakeup automation. |
 | Claimed success from green build | Require actual runtime action/result evidence and fresh independent acceptance. |
@@ -125,7 +125,7 @@ For task prompts and practical one-line steers, read
 
 - [`automate-me`](../automate-me/guide.md) drafts a personal mode skill from the user's own history, to use alongside `$pstack`.
 - [`reflect`](../reflect/guide.md) after a session turns its lessons into skill edits the user approves.
-- `/poteto-mode write a skill for <workflow>` runs the authoring playbook. The eval playbook tests a skill change blind.
+- `$poteto-mode write a skill for <workflow>` runs the authoring playbook. The eval playbook tests a skill change blind.
 - Diagnose a misbehaving skill separately; repair it or open a PR only within the authorized scope.
 
 [Guide page 9](https://github.com/cursor/plugins/blob/1dcc2bacde73ddd284803b7af28164d0436198fc/pstack/docs/guide/09-make-it-yours.md) covers each of these.

@@ -26,6 +26,8 @@ The port adds explicit independent acceptance for nontrivial local-only changes.
 Missing reviewers or real-surface drivers remain BLOCKED. Code is not done
 because it compiles or CI is green.
 
-This repository is packaged as a single installable Codex skill under
-skills/pstack. The upstream plugin manifests are not installed because they
+This repository has a shared core under skills/pstack and 52 lightweight
+entry-point skills. The source invocation policies are preserved; tdd and teach
+are exposed as pstack-tdd and pstack-teach to avoid existing skills. See
+[ENTRYPOINTS.md](ENTRYPOINTS.md). The upstream plugin manifests are not installed because they
 do not wire this skill layout. Original MIT attribution remains intact.

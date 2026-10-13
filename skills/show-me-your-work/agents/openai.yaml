@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · show-me-your-work"
+  short_description: "pstack engineering workflow entry point"
+  default_prompt: "Use $show-me-your-work for this task."
+policy:
+  allow_implicit_invocation: false

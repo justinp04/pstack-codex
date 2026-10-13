@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · ketchup"
+  short_description: "pstack engineering workflow entry point"
+  default_prompt: "Use $ketchup for this task."
+policy:
+  allow_implicit_invocation: false

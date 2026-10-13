@@ -1,0 +1,317 @@
+{
+  "core": "pstack",
+  "entries": [
+    {
+      "upstream": "architect",
+      "skill": "architect",
+      "path": "skills/architect",
+      "implicit": false
+    },
+    {
+      "upstream": "arena",
+      "skill": "arena",
+      "path": "skills/arena",
+      "implicit": false
+    },
+    {
+      "upstream": "automate-me",
+      "skill": "automate-me",
+      "path": "skills/automate-me",
+      "implicit": false
+    },
+    {
+      "upstream": "benchmark-checklist",
+      "skill": "benchmark-checklist",
+      "path": "skills/benchmark-checklist",
+      "implicit": false
+    },
+    {
+      "upstream": "blast-radius",
+      "skill": "blast-radius",
+      "path": "skills/blast-radius",
+      "implicit": false
+    },
+    {
+      "upstream": "bro",
+      "skill": "bro",
+      "path": "skills/bro",
+      "implicit": false
+    },
+    {
+      "upstream": "correct",
+      "skill": "correct",
+      "path": "skills/correct",
+      "implicit": false
+    },
+    {
+      "upstream": "create-verification-skill",
+      "skill": "create-verification-skill",
+      "path": "skills/create-verification-skill",
+      "implicit": false
+    },
+    {
+      "upstream": "figure-it-out",
+      "skill": "figure-it-out",
+      "path": "skills/figure-it-out",
+      "implicit": false
+    },
+    {
+      "upstream": "how",
+      "skill": "how",
+      "path": "skills/how",
+      "implicit": false
+    },
+    {
+      "upstream": "interrogate",
+      "skill": "interrogate",
+      "path": "skills/interrogate",
+      "implicit": false
+    },
+    {
+      "upstream": "ketchup",
+      "skill": "ketchup",
+      "path": "skills/ketchup",
+      "implicit": false
+    },
+    {
+      "upstream": "maintain-verification-skill",
+      "skill": "maintain-verification-skill",
+      "path": "skills/maintain-verification-skill",
+      "implicit": false
+    },
+    {
+      "upstream": "make-bot-ui",
+      "skill": "make-bot-ui",
+      "path": "skills/make-bot-ui",
+      "implicit": false
+    },
+    {
+      "upstream": "no-comments",
+      "skill": "no-comments",
+      "path": "skills/no-comments",
+      "implicit": false
+    },
+    {
+      "upstream": "poteto-help",
+      "skill": "poteto-help",
+      "path": "skills/poteto-help",
+      "implicit": false
+    },
+    {
+      "upstream": "poteto-mode",
+      "skill": "poteto-mode",
+      "path": "skills/poteto-mode",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-attack-the-premise",
+      "skill": "principle-attack-the-premise",
+      "path": "skills/principle-attack-the-premise",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-boundary-discipline",
+      "skill": "principle-boundary-discipline",
+      "path": "skills/principle-boundary-discipline",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-build-the-lever",
+      "skill": "principle-build-the-lever",
+      "path": "skills/principle-build-the-lever",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-encode-lessons-in-structure",
+      "skill": "principle-encode-lessons-in-structure",
+      "path": "skills/principle-encode-lessons-in-structure",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-exhaust-the-design-space",
+      "skill": "principle-exhaust-the-design-space",
+      "path": "skills/principle-exhaust-the-design-space",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-experience-first",
+      "skill": "principle-experience-first",
+      "path": "skills/principle-experience-first",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-explain-the-number",
+      "skill": "principle-explain-the-number",
+      "path": "skills/principle-explain-the-number",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-fix-root-causes",
+      "skill": "principle-fix-root-causes",
+      "path": "skills/principle-fix-root-causes",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-foundational-thinking",
+      "skill": "principle-foundational-thinking",
+      "path": "skills/principle-foundational-thinking",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-guard-the-context-window",
+      "skill": "principle-guard-the-context-window",
+      "path": "skills/principle-guard-the-context-window",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-laziness-protocol",
+      "skill": "principle-laziness-protocol",
+      "path": "skills/principle-laziness-protocol",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-make-operations-idempotent",
+      "skill": "principle-make-operations-idempotent",
+      "path": "skills/principle-make-operations-idempotent",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-migrate-callers-then-delete-legacy-apis",
+      "skill": "principle-migrate-callers-then-delete-legacy-apis",
+      "path": "skills/principle-migrate-callers-then-delete-legacy-apis",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-minimize-reader-load",
+      "skill": "principle-minimize-reader-load",
+      "path": "skills/principle-minimize-reader-load",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-model-the-domain",
+      "skill": "principle-model-the-domain",
+      "path": "skills/principle-model-the-domain",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-never-block-on-the-human",
+      "skill": "principle-never-block-on-the-human",
+      "path": "skills/principle-never-block-on-the-human",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-outcome-oriented-execution",
+      "skill": "principle-outcome-oriented-execution",
+      "path": "skills/principle-outcome-oriented-execution",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-prove-it-works",
+      "skill": "principle-prove-it-works",
+      "path": "skills/principle-prove-it-works",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-redesign-from-first-principles",
+      "skill": "principle-redesign-from-first-principles",
+      "path": "skills/principle-redesign-from-first-principles",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-separate-before-serializing-shared-state",
+      "skill": "principle-separate-before-serializing-shared-state",
+      "path": "skills/principle-separate-before-serializing-shared-state",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-sequence-verifiable-units",
+      "skill": "principle-sequence-verifiable-units",
+      "path": "skills/principle-sequence-verifiable-units",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-subtract-before-you-add",
+      "skill": "principle-subtract-before-you-add",
+      "path": "skills/principle-subtract-before-you-add",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-test-behavior-not-implementation",
+      "skill": "principle-test-behavior-not-implementation",
+      "path": "skills/principle-test-behavior-not-implementation",
+      "implicit": false
+    },
+    {
+      "upstream": "principle-type-system-discipline",
+      "skill": "principle-type-system-discipline",
+      "path": "skills/principle-type-system-discipline",
+      "implicit": false
+    },
+    {
+      "upstream": "recall",
+      "skill": "recall",
+      "path": "skills/recall",
+      "implicit": false
+    },
+    {
+      "upstream": "reflect",
+      "skill": "reflect",
+      "path": "skills/reflect",
+      "implicit": false
+    },
+    {
+      "upstream": "setup-pstack",
+      "skill": "setup-pstack",
+      "path": "skills/setup-pstack",
+      "implicit": true
+    },
+    {
+      "upstream": "show-me-your-work",
+      "skill": "show-me-your-work",
+      "path": "skills/show-me-your-work",
+      "implicit": false
+    },
+    {
+      "upstream": "swarm",
+      "skill": "swarm",
+      "path": "skills/swarm",
+      "implicit": false
+    },
+    {
+      "upstream": "tdd",
+      "skill": "pstack-tdd",
+      "path": "skills/pstack-tdd",
+      "implicit": false
+    },
+    {
+      "upstream": "teach",
+      "skill": "pstack-teach",
+      "path": "skills/pstack-teach",
+      "implicit": false
+    },
+    {
+      "upstream": "technical-writing",
+      "skill": "technical-writing",
+      "path": "skills/technical-writing",
+      "implicit": false
+    },
+    {
+      "upstream": "typescript-best-practices",
+      "skill": "typescript-best-practices",
+      "path": "skills/typescript-best-practices",
+      "implicit": false
+    },
+    {
+      "upstream": "unslop",
+      "skill": "unslop",
+      "path": "skills/unslop",
+      "implicit": false
+    },
+    {
+      "upstream": "why",
+      "skill": "why",
+      "path": "skills/why",
+      "implicit": false
+    }
+  ]
+}

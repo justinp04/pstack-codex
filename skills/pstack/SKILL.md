@@ -9,7 +9,7 @@ Read [Codex runtime](references/codex-runtime.md) first. Then read the
 [mode guide](references/workflows/poteto-mode/guide.md), select the matching
 playbook, and load only its relevant specialist guides. All 23 upstream
 playbooks are bundled under `references/workflows/poteto-mode/playbooks/`.
-`$pstack` is the installed entry point. A request mentioning poteto-mode uses
+`$pstack` is the convenience coordinator entry point; the complete bundle also registers the original specialist names. A request mentioning poteto-mode uses
 this same entry point; Cursor slash commands are not registered here.
 
 After loading the relevant guides, create the selected playbook checklist as
@@ -52,6 +52,14 @@ run the generator rather than ask permission for that same work again.
 For a named specialist such as automate-me, recall, reflect, or make-bot-ui,
 read its actual bundled guide rather than substitute a generic playbook.
 Use [help](references/workflows/poteto-help/guide.md) for the complete routing
-map and prompt references. These are guide labels, not registered slash
-commands. Otherwise the mode selects the matching engineering playbook.
+map and prompt references. The complete bundle exposes these guides through Codex dollar-name entry points; Cursor slash commands are not registered. Otherwise the mode selects the matching engineering playbook.
 Read [helper tools](references/helper-tools.md) when a procedure needs them.
+
+## Direct entry points
+
+Specialist entry points explicitly select their named guide after loading this
+core and runtime. Honor that selection rather than rerouting to a generic
+playbook. They do not enable persistent coordinator mode unless the user asks;
+poteto-mode explicitly activates the coordinator. The complete bundle retains
+upstream invocation policies. tdd and teach use pstack-tdd/pstack-teach names to
+avoid existing skills. Resource paths and implementations remain shared here.

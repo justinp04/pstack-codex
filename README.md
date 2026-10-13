@@ -10,40 +10,49 @@ release, and does not imply their endorsement.
 
 pstack gives Codex a structured approach to investigation, implementation,
 review and verification. The port retains all **23 playbook categories** and
-**52 upstream guide definitions**, including the coordinator mode, along with
-supporting references and optional helper tools.
+**52 upstream guide definitions**, including the coordinator mode. Each original
+workflow has a direct Codex entry point, backed by shared references and optional
+helper tools.
 
 ## Install
 
-In Codex, ask its built-in skill installer:
-
-```text
-Use $skill-installer to install the pstack skill from
-https://github.com/justinp04/pstack-codex/tree/main/skills/pstack
-```
-
-The installable directory is **skills/pstack**, not the repository root.
-This is a skill repository, not a Cursor plugin; `/add-plugin pstack` does not
-install this port. The skill installer refuses to overwrite an existing
-installation. Back up an existing pstack skill and review differences before
-replacing it. The installed skill is available on the next turn.
-
-For a manual installation on macOS/Linux, choose a fresh checkout directory:
+For all original entry points, install the complete bundle:
 
 ```sh
 git clone https://github.com/justinp04/pstack-codex.git
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cd pstack-codex
+python3 scripts/install_skills.py
 ```
 
-Copy `pstack-codex/skills/pstack` into that skills directory only if `pstack`
-does not already exist there. Use the installer for platform-specific handling.
+The installer honors CODEX_HOME and installs **53 skills**: the shared pstack
+core plus 52 original workflow entry points. Identical existing copies are
+preserved. Different existing skills cause a refusal before any changes;
+back up and review an older owned pstack installation before replacing it.
+It never overwrites unrelated skills to resolve conflicts.
+
+For a smaller install, ask the built-in installer for the core and selected
+entry points, for example:
+
+```text
+Use $skill-installer to install skills/pstack and skills/setup-pstack
+from justinp04/pstack-codex.
+```
+
+If the compatible core is already installed, request only the missing entry
+point. Wrappers require the sibling pstack core; installing a wrapper alone
+without that core cannot run its workflow. The repository root is not a skill
+and Cursor's /add-plugin command does not install this port. Start a fresh chat
+after installation; restart Codex if the new names do not appear in its picker.
+
+See [the complete entry-point map](docs/ENTRYPOINTS.md) for installation paths,
+invocation policies and name differences.
 
 ## Set up each project
 
 Open your application's repository in Codex and run:
 
 ```text
-$pstack Set up this project. Keep the current model defaults,
+$setup-pstack Set up this project. Keep the current model defaults,
 reuse existing verification harnesses, and create a feature map if missing.
 ```
 
@@ -81,10 +90,16 @@ $pstack Create a multi-phase plan for this migration. Plan only.
 $pstack Review this PR and bring it to merge-ready. Do not merge.
 ```
 
-You can name a specialist in a `$pstack` request: `recall`, `architect`, `arena`,
-`interrogate`, `reflect`, `automate-me`, or `create-verification-skill`.
+You can invoke specialists directly: `$recall`, `$architect`, `$arena`,
+`$interrogate`, `$reflect`, `$automate-me`, or `$create-verification-skill`.
+You can still name them in a `$pstack` request.
 `automate-me` creates a personal working-style skill; it is not a scheduler.
-These are bundled guide names, not independently registered slash commands.
+Codex uses dollar-name skill invocation; Cursor slash commands are not registered.
+`$poteto-mode` is the original coordinator entry, and `$pstack` remains its
+convenience entry. `$pstack-tdd` and `$pstack-teach` avoid replacing other
+installed tdd/teach skills. Other upstream names are preserved. Every specialist
+except setup retains upstream explicit-only invocation, so the full bundle
+does not enable dozens of competing automatic workflows.
 
 Explicit mode activation carries through the chat until you opt out. Say
 “Keep pstack mode on” or “Stop pstack mode.” This is a conversational convention,

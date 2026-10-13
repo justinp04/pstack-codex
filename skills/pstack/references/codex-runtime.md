@@ -13,8 +13,8 @@ to this file. A named bundled specialist lives at `workflows/<name>/guide.md`.
 Within the mode, `playbooks/<name>.md` is relative to its directory. Within a
 playbook, a `playbooks/<name>.md` cross-reference is relative to the mode
 directory, not nested under the current playbook. Reference templates are
-relative to their containing specialist directory. The `guide.md` files are
-support documents, not independently discoverable skills. For authoring new
+relative to their containing specialist directory. The `guide.md` files are shared support documents. The complete bundle registers
+lightweight sibling SKILL.md entry points that explicitly select these guides. For authoring new
 skills, the output manifest is still `SKILL.md`.
 
 ## Tool mapping

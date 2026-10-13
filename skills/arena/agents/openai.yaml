@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · arena"
+  short_description: "pstack engineering workflow entry point"
+  default_prompt: "Use $arena for this task."
+policy:
+  allow_implicit_invocation: false

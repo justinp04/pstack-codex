@@ -49,3 +49,20 @@ provider-diverse panels, Benny triggers, and unattended automations were not
 exercised. Model preferences are instruction-based, not native host settings.
 Project feature-map checks used an isolated fixture; each consumer must set
 up and prove their own application's journeys. This port remains experimental.
+
+## Direct entry-point validation
+
+The complete bundle adds 52 thin entry points with adapted descriptions and
+invocation policies. Resource implementations remain shared. Checks cover all
+original names, policy mapping, licenses, core links, metadata, fresh installs,
+idempotent reinstalls, and refusal of unrelated conflicts before mutation.
+The addition does not imply that every specialist was exercised end to end.
+
+Run the installer safety checks with:
+
+```sh
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
+
+These use temporary files to verify conflict preservation, path and symlink
+refusal, identical reinstalls, and rollback after a failed move.
