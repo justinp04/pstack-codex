@@ -1,0 +1,12 @@
+{
+  "name": "pstack",
+  "author": "Lauren Tan",
+  "repository": "https://github.com/cursor/plugins",
+  "path": "pstack",
+  "revision": "1dcc2bacde73ddd284803b7af28164d0436198fc",
+  "version": "0.15.21",
+  "license": "MIT",
+  "checked_on": "2026-10-13",
+  "port_status": "experimental",
+  "skill_path": "skills/pstack"
+}

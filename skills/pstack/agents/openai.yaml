@@ -1,0 +1,4 @@
+interface:
+  display_name: "pstack for Codex"
+  short_description: "Engineering playbooks with runtime verification"
+  default_prompt: "Use $pstack to complete this engineering task with scoped work and independent runtime verification."

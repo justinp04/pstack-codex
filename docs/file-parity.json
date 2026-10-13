@@ -1,0 +1,841 @@
+{
+  "revision": "1dcc2bacde73ddd284803b7af28164d0436198fc",
+  "files": [
+    {
+      "upstream": ".cursor-plugin/plugin.json",
+      "port": null,
+      "status": "source repository/plugin packaging excluded; port is installed as one Codex skill, not this plugin layout"
+    },
+    {
+      "upstream": ".gitignore",
+      "port": null,
+      "status": "source repository/plugin packaging excluded; port is installed as one Codex skill, not this plugin layout"
+    },
+    {
+      "upstream": "LICENSE",
+      "port": "LICENSE",
+      "status": "exact"
+    },
+    {
+      "upstream": "README.md",
+      "port": "references/upstream-materials/README.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "agents/comment-sicko.md",
+      "port": "references/upstream-materials/agents/comment-sicko.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "agents/poteto-agent.md",
+      "port": "references/upstream-materials/agents/poteto-agent.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "assets/logo.png",
+      "port": "references/upstream-materials/assets/logo.png",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/FOR_AGENTS.md",
+      "port": "references/upstream-materials/automations/benny/FOR_AGENTS.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/README.md",
+      "port": "references/upstream-materials/automations/benny/README.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
+      "port": "references/upstream-materials/automations/benny/skills/reproduce-and-fix-issues/SKILL.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
+      "port": "references/upstream-materials/automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "port": "references/upstream-materials/automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
+      "port": "references/upstream-materials/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/setup-benny/SKILL.md",
+      "port": "references/upstream-materials/automations/benny/skills/setup-benny/SKILL.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/triage-issue-reports/SKILL.md",
+      "port": "references/upstream-materials/automations/benny/skills/triage-issue-reports/SKILL.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/skills/triage-issue-reports/references/routing.example.md",
+      "port": "references/upstream-materials/automations/benny/skills/triage-issue-reports/references/routing.example.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/templates/configuration.example.yaml",
+      "port": "references/upstream-materials/automations/benny/templates/configuration.example.yaml",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/templates/reproduce-automation-prompt.md",
+      "port": "references/upstream-materials/automations/benny/templates/reproduce-automation-prompt.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "automations/benny/templates/triage-automation-prompt.md",
+      "port": "references/upstream-materials/automations/benny/templates/triage-automation-prompt.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/01-setup.md",
+      "port": "references/upstream-materials/docs/guide/01-setup.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/02-poteto-mode.md",
+      "port": "references/upstream-materials/docs/guide/02-poteto-mode.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/03-understand.md",
+      "port": "references/upstream-materials/docs/guide/03-understand.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/04-design.md",
+      "port": "references/upstream-materials/docs/guide/04-design.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/05-build-and-clean.md",
+      "port": "references/upstream-materials/docs/guide/05-build-and-clean.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/06-verify-and-ship.md",
+      "port": "references/upstream-materials/docs/guide/06-verify-and-ship.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/07-overnight.md",
+      "port": "references/upstream-materials/docs/guide/07-overnight.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/08-principles.md",
+      "port": "references/upstream-materials/docs/guide/08-principles.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/09-make-it-yours.md",
+      "port": "references/upstream-materials/docs/guide/09-make-it-yours.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/10-recipes-and-pitfalls.md",
+      "port": "references/upstream-materials/docs/guide/10-recipes-and-pitfalls.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/README.md",
+      "port": "references/upstream-materials/docs/guide/README.md.txt",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/images/design.jpg",
+      "port": "references/upstream-materials/docs/guide/images/design.jpg",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/images/overnight.jpg",
+      "port": "references/upstream-materials/docs/guide/images/overnight.jpg",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/images/recipes.jpg",
+      "port": "references/upstream-materials/docs/guide/images/recipes.jpg",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/images/router.jpg",
+      "port": "references/upstream-materials/docs/guide/images/router.jpg",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/images/understanding.jpg",
+      "port": "references/upstream-materials/docs/guide/images/understanding.jpg",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "docs/guide/images/verification.jpg",
+      "port": "references/upstream-materials/docs/guide/images/verification.jpg",
+      "status": "historical source preserved exactly; not an active Codex integration"
+    },
+    {
+      "upstream": "plugin.json",
+      "port": null,
+      "status": "source repository/plugin packaging excluded; port is installed as one Codex skill, not this plugin layout"
+    },
+    {
+      "upstream": "skills/architect/SKILL.md",
+      "port": "references/workflows/architect/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/architect/references/design-red-flags.md",
+      "port": "references/workflows/architect/references/design-red-flags.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/architect/references/rationale-template.md",
+      "port": "references/workflows/architect/references/rationale-template.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/architect/references/runner-prompt.md",
+      "port": "references/workflows/architect/references/runner-prompt.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/arena/SKILL.md",
+      "port": "references/workflows/arena/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/automate-me/SKILL.md",
+      "port": "references/workflows/automate-me/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/benchmark-checklist/SKILL.md",
+      "port": "references/workflows/benchmark-checklist/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/blast-radius/SKILL.md",
+      "port": "references/workflows/blast-radius/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/bro/SKILL.md",
+      "port": "references/workflows/bro/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/correct/SKILL.md",
+      "port": "references/workflows/correct/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/create-verification-skill/SKILL.md",
+      "port": "references/workflows/create-verification-skill/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/create-verification-skill/references/feature-map-example/README.md",
+      "port": "references/workflows/create-verification-skill/references/feature-map-example/README.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "port": "references/workflows/create-verification-skill/references/feature-map-example/create-note.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/create-verification-skill/references/feature-map-example/search.md",
+      "port": "references/workflows/create-verification-skill/references/feature-map-example/search.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/figure-it-out/SKILL.md",
+      "port": "references/workflows/figure-it-out/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/how/SKILL.md",
+      "port": "references/workflows/how/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/how/references/explainer-prompt.md",
+      "port": "references/workflows/how/references/explainer-prompt.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/how/references/explorer-prompt.md",
+      "port": "references/workflows/how/references/explorer-prompt.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/interrogate/SKILL.md",
+      "port": "references/workflows/interrogate/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/interrogate/references/code-quality-review.md",
+      "port": "references/workflows/interrogate/references/code-quality-review.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/interrogate/references/lead-judgment.md",
+      "port": "references/workflows/interrogate/references/lead-judgment.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/interrogate/references/reviewer-prompt.md",
+      "port": "references/workflows/interrogate/references/reviewer-prompt.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/interrogate/references/rubric.md",
+      "port": "references/workflows/interrogate/references/rubric.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/ketchup/SKILL.md",
+      "port": "references/workflows/ketchup/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/maintain-verification-skill/SKILL.md",
+      "port": "references/workflows/maintain-verification-skill/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/make-bot-ui/SKILL.md",
+      "port": "references/workflows/make-bot-ui/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/no-comments/SKILL.md",
+      "port": "references/workflows/no-comments/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-help/SKILL.md",
+      "port": "references/workflows/poteto-help/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-help/references/prompting.md",
+      "port": "references/workflows/poteto-help/references/prompting.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-help/references/recipes.md",
+      "port": "references/workflows/poteto-help/references/recipes.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/SKILL.md",
+      "port": "references/workflows/poteto-mode/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/authoring-a-skill.md",
+      "port": "references/workflows/poteto-mode/playbooks/authoring-a-skill.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/autonomous-run.md",
+      "port": "references/workflows/poteto-mode/playbooks/autonomous-run.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "port": "references/workflows/poteto-mode/playbooks/autopilot-full.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "port": "references/workflows/poteto-mode/playbooks/autopilot-stack.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/babysit.md",
+      "port": "references/workflows/poteto-mode/playbooks/babysit.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/bug-fix.md",
+      "port": "references/workflows/poteto-mode/playbooks/bug-fix.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/eval.md",
+      "port": "references/workflows/poteto-mode/playbooks/eval.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/feature.md",
+      "port": "references/workflows/poteto-mode/playbooks/feature.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/hillclimb.md",
+      "port": "references/workflows/poteto-mode/playbooks/hillclimb.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/investigation.md",
+      "port": "references/workflows/poteto-mode/playbooks/investigation.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "port": "references/workflows/poteto-mode/playbooks/multi-phase-plan.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/opening-a-pr.md",
+      "port": "references/workflows/poteto-mode/playbooks/opening-a-pr.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/orchestrate.md",
+      "port": "references/workflows/poteto-mode/playbooks/orchestrate.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/pause-safely.md",
+      "port": "references/workflows/poteto-mode/playbooks/pause-safely.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/perf-issue.md",
+      "port": "references/workflows/poteto-mode/playbooks/perf-issue.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/prototype.md",
+      "port": "references/workflows/poteto-mode/playbooks/prototype.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/refactoring.md",
+      "port": "references/workflows/poteto-mode/playbooks/refactoring.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/runtime-forensics.md",
+      "port": "references/workflows/poteto-mode/playbooks/runtime-forensics.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/session-pickup.md",
+      "port": "references/workflows/poteto-mode/playbooks/session-pickup.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/shipping.md",
+      "port": "references/workflows/poteto-mode/playbooks/shipping.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/trace-forensics.md",
+      "port": "references/workflows/poteto-mode/playbooks/trace-forensics.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/visual-parity.md",
+      "port": "references/workflows/poteto-mode/playbooks/visual-parity.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/playbooks/worktree-cleanup.md",
+      "port": "references/workflows/poteto-mode/playbooks/worktree-cleanup.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/references/bugbot-triage.md",
+      "port": "references/workflows/poteto-mode/references/bugbot-triage.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/bootstrap.ts",
+      "port": "references/workflows/poteto-mode/scripts/bootstrap.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/bun.lock",
+      "port": "references/workflows/poteto-mode/scripts/bun.lock",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/check-plan.mjs",
+      "port": "references/workflows/poteto-mode/scripts/check-plan.mjs",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/check-plan.test.ts",
+      "port": "references/workflows/poteto-mode/scripts/check-plan.test.ts",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/orch/orch.test.ts",
+      "port": "references/workflows/poteto-mode/scripts/orch/orch.test.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/orch/orch.ts",
+      "port": "references/workflows/poteto-mode/scripts/orch/orch.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/orch/store.ts",
+      "port": "references/workflows/poteto-mode/scripts/orch/store.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/package.json",
+      "port": "references/workflows/poteto-mode/scripts/package.json",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/cli.test.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/cli.test.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/cli.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/cli.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/fakes.test-helper.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/fakes.test-helper.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/github.test.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/github.test.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/github.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/github.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/policy.test.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/policy.test.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/policy.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/policy.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/render.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/render.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/tsconfig.json",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/tsconfig.json",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/types.compile.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/types.compile.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/types.ts",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/types.ts",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/watch-pr/watch-pr",
+      "port": "references/workflows/poteto-mode/scripts/watch-pr/watch-pr",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/poteto-mode/scripts/worktree-audit.sh",
+      "port": "references/workflows/poteto-mode/scripts/worktree-audit.sh",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-attack-the-premise/SKILL.md",
+      "port": "references/workflows/principle-attack-the-premise/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-boundary-discipline/SKILL.md",
+      "port": "references/workflows/principle-boundary-discipline/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-build-the-lever/SKILL.md",
+      "port": "references/workflows/principle-build-the-lever/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-encode-lessons-in-structure/SKILL.md",
+      "port": "references/workflows/principle-encode-lessons-in-structure/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-exhaust-the-design-space/SKILL.md",
+      "port": "references/workflows/principle-exhaust-the-design-space/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-experience-first/SKILL.md",
+      "port": "references/workflows/principle-experience-first/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-explain-the-number/SKILL.md",
+      "port": "references/workflows/principle-explain-the-number/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-fix-root-causes/SKILL.md",
+      "port": "references/workflows/principle-fix-root-causes/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-foundational-thinking/SKILL.md",
+      "port": "references/workflows/principle-foundational-thinking/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-guard-the-context-window/SKILL.md",
+      "port": "references/workflows/principle-guard-the-context-window/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-laziness-protocol/SKILL.md",
+      "port": "references/workflows/principle-laziness-protocol/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-make-operations-idempotent/SKILL.md",
+      "port": "references/workflows/principle-make-operations-idempotent/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
+      "port": "references/workflows/principle-migrate-callers-then-delete-legacy-apis/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-minimize-reader-load/SKILL.md",
+      "port": "references/workflows/principle-minimize-reader-load/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-model-the-domain/SKILL.md",
+      "port": "references/workflows/principle-model-the-domain/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-never-block-on-the-human/SKILL.md",
+      "port": "references/workflows/principle-never-block-on-the-human/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-outcome-oriented-execution/SKILL.md",
+      "port": "references/workflows/principle-outcome-oriented-execution/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-prove-it-works/SKILL.md",
+      "port": "references/workflows/principle-prove-it-works/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-redesign-from-first-principles/SKILL.md",
+      "port": "references/workflows/principle-redesign-from-first-principles/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
+      "port": "references/workflows/principle-separate-before-serializing-shared-state/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-sequence-verifiable-units/SKILL.md",
+      "port": "references/workflows/principle-sequence-verifiable-units/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-subtract-before-you-add/SKILL.md",
+      "port": "references/workflows/principle-subtract-before-you-add/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "port": "references/workflows/principle-test-behavior-not-implementation/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/principle-type-system-discipline/SKILL.md",
+      "port": "references/workflows/principle-type-system-discipline/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/recall/SKILL.md",
+      "port": "references/workflows/recall/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/reflect/SKILL.md",
+      "port": "references/workflows/reflect/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/reflect/references/divergent-reviewer.md",
+      "port": "references/workflows/reflect/references/divergent-reviewer.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/reflect/references/judgment-reviewer.md",
+      "port": "references/workflows/reflect/references/judgment-reviewer.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/reflect/references/synthesizer.md",
+      "port": "references/workflows/reflect/references/synthesizer.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/reflect/references/tooling-reviewer.md",
+      "port": "references/workflows/reflect/references/tooling-reviewer.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/setup-pstack/SKILL.md",
+      "port": "references/workflows/setup-pstack/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/show-me-your-work/SKILL.md",
+      "port": "references/workflows/show-me-your-work/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/show-me-your-work/references/decision-log-template.tsv",
+      "port": "references/workflows/show-me-your-work/references/decision-log-template.tsv",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/show-me-your-work/scripts/log.sh",
+      "port": "references/workflows/show-me-your-work/scripts/log.sh",
+      "status": "exact"
+    },
+    {
+      "upstream": "skills/swarm/SKILL.md",
+      "port": "references/workflows/swarm/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/tdd/SKILL.md",
+      "port": "references/workflows/tdd/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/teach/SKILL.md",
+      "port": "references/workflows/teach/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/technical-writing/SKILL.md",
+      "port": "references/workflows/technical-writing/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/typescript-best-practices/SKILL.md",
+      "port": "references/workflows/typescript-best-practices/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/typescript-best-practices/references/patterns.md",
+      "port": "references/workflows/typescript-best-practices/references/patterns.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/unslop/SKILL.md",
+      "port": "references/workflows/unslop/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/SKILL.md",
+      "port": "references/workflows/why/guide.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/epistemics.md",
+      "port": "references/workflows/why/references/epistemics.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/investigator-prompt.md",
+      "port": "references/workflows/why/references/investigator-prompt.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/source-playbook.md",
+      "port": "references/workflows/why/references/source-playbook.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/code-archaeology.md",
+      "port": "references/workflows/why/references/sources/code-archaeology.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/databricks.md",
+      "port": "references/workflows/why/references/sources/databricks.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/datadog.md",
+      "port": "references/workflows/why/references/sources/datadog.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/incident-postmortem.md",
+      "port": "references/workflows/why/references/sources/incident-postmortem.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/linear.md",
+      "port": "references/workflows/why/references/sources/linear.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/notion.md",
+      "port": "references/workflows/why/references/sources/notion.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/sentry.md",
+      "port": "references/workflows/why/references/sources/sentry.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/sources/slack.md",
+      "port": "references/workflows/why/references/sources/slack.md",
+      "status": "adapted"
+    },
+    {
+      "upstream": "skills/why/references/synthesizer-prompt.md",
+      "port": "references/workflows/why/references/synthesizer-prompt.md",
+      "status": "adapted"
+    }
+  ],
+  "port_root": "skills/pstack"
+}
