@@ -1,6 +1,6 @@
 # pstack for Codex
 
-An unofficial, experimental Codex adaptation of **[pstack](https://github.com/cursor/plugins/tree/main/pstack), created by [Lauren Tan](https://github.com/poteto)**.
+An unofficial, experimental Codex adaptation of **[pstack](https://github.com/cursor/plugins/tree/main/pstack) created by [Lauren Tan](https://github.com/poteto)**.
 
 Lauren designed the original engineering principles, specialist workflows and
 playbooks. This repository adapts that work to Codex's available tools and
